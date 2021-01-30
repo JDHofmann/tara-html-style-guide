@@ -1,15 +1,13 @@
 * {
-    color: #009975;
+    color: #ffffff;
+    background: #101010;
 }
 
 /* COLORS */
-/* primary: #009975 */
-/* gray-scale: #4d4d4d */
+/* dark #101010 */
+/* light #ffffff */
 
-/* accent: #ff7373 */
-
-/* light: #BFFFFF */
-/* light-gray: #dfdfdf */
+/* accent #ff40ff */
 
 body {
     box-sizing: border-box;
@@ -25,16 +23,6 @@ header {
 
 .app {
     min-height: calc(100vh - 16vmax)
-}
-
-.test-section {
-    background: #BFFFFF;
-}
-
-.test-section-two {
-    height: 30vh;
-    background: #ffa49f;
-    margin-top: 20vh;
 }
 
 .burger-btn {
@@ -55,7 +43,7 @@ header {
     max-width: 40px;
     height: .65vmax;
     max-height: 6px;
-    background: #009975;
+    background: #ff40ff;
     border-radius: 2px;
 }
 
@@ -247,12 +235,13 @@ td, th {
 
 footer {
     height: 8vmax;
-    background: #009975;
+    background: #ff40ff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 footer span {
-    color: #ffffff;
+    background: #ff40ff;
+    color: #101010;
 }
