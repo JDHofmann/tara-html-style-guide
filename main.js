@@ -1,7 +1,6 @@
 // console.log("loaded js")
 
 let burgerBtn = document.querySelector(".burger-btn")
-
 let nav = document.querySelector("nav")
 
 burgerBtn.addEventListener( "click", () => {
