@@ -5,6 +5,8 @@
 
 /* COLORS */
 /* dark #101010 */
+/* secondary dark #262626 */
+
 /* light #ffffff */
 
 /* accent #ff40ff */
@@ -52,14 +54,14 @@ header {
 }
 
 nav {
-    background: #ff7373;
-    background: #ffffff;
+    background: #262626a0;
     position: fixed;
     top: 8vmax;
     left: 0;
     width: 100%;
     height: calc(100% - 6vmax);
     transition: 1s;
+    z-index: 300;
 }
 
 .nav-hidden {
@@ -67,9 +69,10 @@ nav {
 }
 
 nav ul {
-    width: 40vw;
+    width: 60vw;
     margin: 5vh auto;
-    padding: 0;
+    padding: 10vh 0;
+    border-radius: 5px;
 }
 
 nav ul li {
@@ -87,7 +90,6 @@ nav ul li a {
     text-decoration: none;
     color: inherit;
     color: #ffffff;
-    color: #4d4d4d;
 }
 
 nav ul li a:hover {
