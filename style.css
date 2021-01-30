@@ -29,7 +29,7 @@ header {
 
 .burger-btn {
     height: 4vmax;
-    max-height: 40px;
+    max-height: 35px;
     margin: 2vmax;
     padding: 0;
     background: none;
@@ -42,15 +42,16 @@ header {
 .burger-btn span {
     display: block;
     width: 4vmax;
-    max-width: 40px;
+    max-width: 35px;
     height: .65vmax;
-    max-height: 6px;
+    max-height: 5px;
     background: #ff40ff;
     border-radius: 2px;
 }
 
 .burger-btn .second-span {
     width: 3vmax;
+    max-width: 27px;
 }
 
 nav {
@@ -69,7 +70,9 @@ nav {
 }
 
 nav ul {
+    min-width: 300px;
     width: 60vw;
+    max-width: 600px;
     margin: 5vh auto;
     padding: 10vh 0;
     border-radius: 5px;
