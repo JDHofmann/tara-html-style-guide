@@ -75,7 +75,7 @@ header {
 
 .burger-btn-active span:nth-child(3){
     transform: rotate(-0.125turn);
-    margin-top: -.5vmax;
+    margin-top: -.65vmax;
 }
 
 nav {
